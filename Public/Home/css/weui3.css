@@ -1,0 +1,258 @@
+/*common*/
+.bot_height
+{
+	height:55px;
+}
+
+/*index.html*/
+.xhsd_index
+{
+	background-color:#f8f8f8;
+}
+.xhsd_index .slide
+{
+	max-width:100%;
+}
+.xhsd_index .weui_grid
+{
+	width:50%;
+}
+
+/*search.html*/
+.xhsd_search
+{
+	background-color:#f8f8f8;
+}
+.xhsd_search a{ 
+	text-decoration:none; 
+	color:black; 
+}
+.book-lists{
+	margin:2%;
+}
+.book-list-l{ 
+	display:block;width:47%;border:1px solid green;
+	float:left;margin:5px auto;padding:2px; 
+}
+.book-list-r{ 
+	display:block;width:47%;border:1px solid green;
+	float:right;margin:5px auto;padding:2px; 
+}
+.book-title,.book-price,.book-read{ 
+	white-space:nowrap;overflow:hidden;text-overflow: ellipsis; 
+}
+
+/*book.html*/
+.xhsd_book
+{
+	background-color:#f8f8f8;
+}
+.xhsd_book .add_car
+{
+	height:55px;position:fixed;bottom:0px;width:100%;z-index:998;background-color:#fff;
+}
+.xhsd_book .add_car a
+{
+	display:block;width:50%;float:left;line-height:55px;color:#fff;
+}
+.book_info
+{
+	padding:5%;
+}
+.book_info_title
+{
+	margin-top:10px;
+}
+.book_info_price
+{
+	margin:10px 0px;
+}
+.book_info_desc1{
+	margin-top:10px;
+}
+.weui_msg_addcar
+{
+	width:100%;background-color: #f8f8f8;height:auto;position:absolute;bottom:-0.5px;
+}
+.weui_msg_addcar .weui-flex:nth-child(1) i
+{
+	margin-right:20px;
+}
+.weui_msg_addcar .weui-flex:nth-child(3)
+{
+	border-top:1px solid #ccc;padding:10px 0px;
+}
+.weui_msg_addcar .weui-flex:nth-child(4) button
+{
+	border-radius: 0px;
+}
+.buy_num
+{
+	background-color: #ddd;padding:5px;margin:0px 5px;
+}
+.buy_num_d,.buy_num_a
+{
+	font-size: 1.22em;position:relative;top:1px;
+}
+/*profile.html*/
+.xhsd_profile
+{
+	background-color:#f8f8f8;
+}
+.profile_phone
+{
+	color:#fff;padding:20px 10px;
+}
+.xhsd_profile .grids-small .grid
+{
+	width:20%;
+	padding:8px;
+}
+.xhsd_profile .weui_grids:before
+{
+	border-bottom:0px none;
+}
+.xhsd_profile .grid:after{
+	border-bottom:0px none;
+}
+.xhsd_profile .grid:before
+{
+	border-right:0px none;
+}
+.xhsd_profile h4
+{
+	margin:10px;
+}
+/*car.html*/
+.xhsd_car
+{
+	background-color:#f8f8f8;
+}
+.car_buy_now
+{
+	height:55px;background-color:#fff;line-height:55px;
+	position:fixed;bottom:0px;width:100%;z-index:998;
+}
+.car_buy_now .weui-flex-item:nth-child(1){}
+.car_buy_now .weui-flex-item:nth-child(2) p{ line-height:27.5px;font-size:0.8em; }
+.car_buy_now .weui-flex-item:nth-child(3){ color:#fff; }
+.car_lists
+{
+
+}
+.car_lists .lists_edit
+{
+	display:inline-block;position:absolute;right:15px;
+}
+.car_lists .list_hd div
+{
+	float:left;line-height: 100px;margin-right: 15px;
+}
+.car_lists .list_hd img
+{
+	height:100px;width:80px;margin-right:10px;float:left;
+}
+.car_lists_body p:nth-child(1){ }
+.car_lists_delete
+{
+	height:80px;padding:10px;line-height:80px
+}
+.car_lists_edit_span span
+{
+	padding:6px 15px;color:black;border:1px solid #ddd;
+}
+/*order.html*/
+.xhsd_order
+{
+	background-color: #f8f8f8;
+}
+.xhsd_order_bottom
+{
+	height:55px;width:100%;position:absolute;bottom:0px;z-index:998;bottom:0px;
+	line-height:55px;background-color:#fff;
+}
+.order_lists img
+{
+	height:50;width:40px;margin-right:5px;display:block
+}
+.order_lists_title
+{
+	white-space:nowrap;overflow:hidden;text-overflow: ellipsis;
+}
+/*wait_pay.html*/
+.xhsd_wait_pay
+{
+	background-color: #f8f8f8;
+}
+.wait_pay_list
+{
+	margin-top: 10px
+}
+.wait_pay_list .weui-form-preview-bd  .weui-flex-item
+{
+	white-space:nowrap;overflow:hidden;text-overflow: ellipsis;
+}
+/*order_complete.html*/
+.xhsd_order_complete
+{
+	background-color: #f8f8f8;
+}
+.order_complete_list
+{
+	margin-top: 10px;background-color: #fff;line-height: 1
+}
+.order_complete_list .weui-flex
+{
+	padding:10px;
+}
+.order_complete_list .weui-flex:nth-child(2)
+{
+	background-color:#f8f8f8;
+}
+/*order_detail.html*/
+.xhsd_order_detail
+{
+	background-color:#f8f8f8;
+}
+.order_detail_list
+{
+	background-color:#fff;
+}
+.order_detail_list img
+{
+	height:100%;border:1px solid #eee;
+}
+.order_detail_list .weui-flex
+{
+	padding:10px;
+}
+.order_detail_list_title
+{
+	border-bottom:1px solid #e0e0e0;
+}
+.order_detail_list_body
+{
+	border-bottom:1px solid #e0e0e0;
+}
+.order_detail_no,.order_detail_code
+{
+	background-color:#fff;margin-top: 10px;
+}
+.order_detail_no .weui-flex,.order_detail_code .weui-flex
+{
+	padding:10px;
+}
+.b_b
+{
+	border-bottom:1px solid #e0e0e0;
+}
+/*pay_success.html*/
+.xhsd_pay_success
+{
+	background-color: #f8f8f8;
+}
+/*pay_error.html*/
+.xhsd_pay_error
+{
+	background-color: #f8f8f8;
+}

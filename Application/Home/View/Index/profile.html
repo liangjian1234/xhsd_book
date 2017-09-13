@@ -1,0 +1,52 @@
+<include file="Layout:header" />
+</head>
+<body ontouchstart class="xhsd_profile">
+	<!-- 手机信息 -->
+	<div class="profile_phone bg-blue">
+		<div class="weui-flex">
+			<div class="weui-flex-item">
+				手机号码：18761669363
+			</div>
+		</div>
+		<div class="weui-flex">
+			<div class="weui-flex-item">
+				会员卡号：18761669363
+			</div>
+		</div>
+	</div>
+
+	<h4>我的</h4>
+   	<div class="weui_grids grids-small"  >
+        <a href="{:U('car')}" class="grid"  >
+            <div class="weui_grid_icon">
+                <img src="__PUBLIC__/Home/images/icon_nav_button.png" alt="">
+            </div>
+            <p class="weui_grid_label">
+                购物车
+            </p>
+        </a>
+        <a href="{:U('wait_pay')}" class="grid"  >
+            <div class="weui_grid_icon">
+                <img src="__PUBLIC__/Home/images/icon_nav_button.png" alt="">
+            </div>
+            <p class="weui_grid_label">
+                待支付
+            </p>
+        </a>
+        <a href="{:U('order_complete')}" class="grid"  >
+            <div class="weui_grid_icon">
+                <img src="__PUBLIC__/Home/images/icon_nav_button.png" alt="">
+            </div>
+            <p class="weui_grid_label">
+                已完成
+            </p>
+        </a>
+    </div>
+
+	<include file="Layout:nav_footer" />
+
+    <script type="text/javascript">
+        $('.tab-bottom .weui_tabbar_item:last').addClass('weui_bar_item_on');
+    </script>
+</body>
+</html>
